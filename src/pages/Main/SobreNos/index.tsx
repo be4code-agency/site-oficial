@@ -19,7 +19,7 @@ export default function SobreNos(){
           <div className="col-md-6 d-flex flex-column justify-content-center align-items-center align-items-lg-start mb-3" data-aos="zoom-in" data-aos-delay="100">
 
             <h2 className="titulo mb-4">Pensamos. <span className="purple">Agimos.</span> Crescemos</h2>
-            <Texto className="text-muted mb-4">A Noobiel Dev está situada em São Paulo e atende a todo o mercado brasileiro, já tendo realizado projetos para empresas no Canadá e Portugal.</Texto>
+            <Texto className="text-muted mb-4">A Be4Code atende a todo o mercado brasileiro, já tendo realizado projetos para empresas no Canadá e Portugal.</Texto>
             <Texto className="text-muted mb-4">Com 4 anos de experiência, temos a expertise necessária para identificar as reais necessidades dos nossos clientes, entregando resultados que superam expectativas e construindo parcerias duradouras.</Texto>
 
             <div className="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3 mb-4 w-100">

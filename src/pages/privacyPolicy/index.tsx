@@ -101,7 +101,7 @@ export default function PolicyPrivacy() {
         <p>Be4Code<br />
         Email: <a href="mailto:contato@be4code.com.br">contato@be4code.com.br</a><br />
         Telefone: <a href="tel:+5511974808118">+55 (11) 97480-8118</a><br />
-        Endereço: Rua Maria Paulina da Conceição, Vila Ponte Rasa, São Paulo - SP, 03882-020</p>
+        </p>
       </div>
 
       <Footer />

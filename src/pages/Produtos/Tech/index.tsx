@@ -185,11 +185,11 @@ export default function Tech(){
 
       <Navbar />
 
-      <InicioServicos banner={Banner} subTitulo="Criação de Sites, Sistemas Web e Aplicativos - Agência Web em SP" titulo="Tecnologia que Conecta Sua Empresa ao Sucesso" texto="Oferecemos desenvolvimento de sites responsivos, sistemas web personalizados e aplicativos para Android e iOS. Nossas soluções são focadas em design intuitivo, alta performance e integração eficiente, ajudando sua empresa a se destacar no mercado digital. Conte com nossa expertise para criar ferramentas que impulsionam resultados." />
+      <InicioServicos banner={Banner} subTitulo="Criação de Sites, Sistemas Web e Aplicativos - Agência Web" titulo="Tecnologia que Conecta Sua Empresa ao Sucesso" texto="Oferecemos desenvolvimento de sites responsivos, sistemas web personalizados e aplicativos para Android e iOS. Nossas soluções são focadas em design intuitivo, alta performance e integração eficiente, ajudando sua empresa a se destacar no mercado digital. Conte com nossa expertise para criar ferramentas que impulsionam resultados." />
 
       <TextoSessao titulo="Tech" texto="Criamos sites com design moderno, intuitivo e alinhado às necessidades do seu negócio. Nosso objetivo é desenvolver plataformas que conectem empresas a seus clientes de forma eficiente e funcional." />
 
-      <Caracteristicas projetos={caracProjetos} subTitulo='Agência de Criação de Sites em SP' produto='Tech' />
+      <Caracteristicas projetos={caracProjetos} subTitulo='Agência de Criação de Sites' produto='Tech' />
 
       <CtaOrcamento titulo="Crie um Site Profissional" msgWhatsapp="Gostaria de um orçamento de criação de site ou sistema" />
 

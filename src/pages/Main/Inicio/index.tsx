@@ -63,7 +63,7 @@ export default function Inicio(){
 
                     <div className="col-xl-8 col-xxl-6">
 
-                      <h1 data-aos="fade-right" data-aos-duration="1500">Agência de Marketing Digital em São Paulo</h1>
+                      <h1 data-aos="fade-right" data-aos-duration="1500">Agência de Marketing Digital</h1>
                       <h2 data-aos="fade-right" data-aos-duration="1500">Soluções Digitais para Impulsionar Pequenas e Grandes Empresas</h2>
                       <p className='mb-4' data-aos="fade-right" data-aos-duration="1500">Integramos tecnologia e design para desenvolver sites, sistemas e estratégias que conectam sua marca ao público ideal, elevando seu posicionamento no mercado.</p>
 
@@ -124,7 +124,7 @@ export default function Inicio(){
 
                     <div className="col-xl-6">
 
-                      <h1 data-aos="fade-right" data-aos-duration="1500">Agência de Publicidade Digital e Gestão de Anúncios em São Paulo</h1>
+                      <h1 data-aos="fade-right" data-aos-duration="1500">Agência de Publicidade Digital e Gestão de Anúncios</h1>
                       <h2 data-aos="fade-right" data-aos-duration="1500">Estratégias de Tráfego Pago e Mídia Online</h2>
                       <p className='mb-4' data-aos="fade-right" data-aos-duration="1500">Gerenciamento de campanhas em Google Ads, Meta Ads e outras plataformas para atrair mais leads, gerar vendas e fortalecer sua presença digital.</p>
 

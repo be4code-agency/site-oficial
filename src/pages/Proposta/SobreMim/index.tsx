@@ -11,7 +11,7 @@ export default function SobreMim(){
 
       <section className="col-md-6 d-flex justify-content-center align-items-center text-center py-0 py-md-5">
 
-        <ImgPerfil src={Gabriel} alt="Foto de perfil Noobiel Dev" />
+        <ImgPerfil src={Gabriel} alt="Foto de perfil Be4Code" />
 
       </section>
 

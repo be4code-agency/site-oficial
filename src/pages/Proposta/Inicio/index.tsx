@@ -68,7 +68,7 @@ export default function Inicio({nome_cliente, data_envio, validade}: InicioProps
 
       <Container className="col-12">
 
-        <LogoImg src={Logo} alt="Logo Noobiel Dev" className="img-fluid" />
+        <LogoImg src={Logo} alt="Logo Be4code" className="img-fluid" />
         <Saudacoes>Olá, <NomeCliente>{nome_cliente}</NomeCliente>. Esta é sua </Saudacoes>
         <TituloProposta>PROPOSTA <br /> COMERCIAL</TituloProposta>
 

@@ -7,7 +7,7 @@ interface HeadProps {
 
 export function Head({title, description = ''}: HeadProps){
 
-  document.title = `Noobiel Dev - ${title}`;
+  document.title = `Be4Code - ${title}`;
   document.querySelector('[name=description]')?.setAttribute('content', description);
 
   return null;

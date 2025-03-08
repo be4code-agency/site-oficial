@@ -17,7 +17,7 @@ export default function NossaHistoria(){
         <div className="col-lg-6 mb-4">
 
           <div className="position-relative">
-            <img src={ImgSobreNos} alt="Imagem escritório Noobiel Dev" className='img-fluid rounded-3' />
+            <img src={ImgSobreNos} alt="Imagem escritório Be4Code" className='img-fluid rounded-3' />
             <ContainerAnos>
               <span className='anos'>4+</span>
               <span className='texto'>Anos de Excelência</span>

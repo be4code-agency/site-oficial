@@ -111,7 +111,7 @@ export default function Footer(){
 
               <li className="nav-item">
                 <ListaFooter className="nav-link ps-0 white">
-                  <Link className="text-decoration-none white" to="mailto:contato@noobieldev.com.br" target="_blank">contato@noobieldev.com.br</Link>
+                  <Link className="text-decoration-none white" to="mailto:contato@be4code.com.br" target="_blank">contato@be4code.com.br</Link>
                 </ListaFooter>
               </li>
 
@@ -130,7 +130,7 @@ export default function Footer(){
 
           <div className="col-sm-2 col-md-2 mb-4 mb-md-0">
 
-            <img src={LogoBranco} alt="Logo Noobiel Dev" />
+            <img src={LogoBranco} alt="Logo Be4Code Dev" />
 
           </div>
 
@@ -160,9 +160,8 @@ export default function Footer(){
 
             <div className="d-flex justify-content-start justify-content-sm-end align-items-center gap-3">
 
-                <Link to="https://www.instagram.com/noobieldev_/" target="_blank"><ListaFooter className="nav-link"><RedeSocial><IoLogoInstagram size={20} /></RedeSocial></ListaFooter></Link>
+                <Link to="https://www.instagram.com/be4code/" target="_blank"><ListaFooter className="nav-link"><RedeSocial><IoLogoInstagram size={20} /></RedeSocial></ListaFooter></Link>
 
-                <Link to="https://www.tiktok.com/@noobiel_" target="_blank"><ListaFooter className="nav-link"><RedeSocial><IoLogoTiktok size={20} /></RedeSocial></ListaFooter></Link>
 
                 <Link to="https://wa.me/5511974808118" target="_blank"><ListaFooter className="nav-link"><RedeSocial><IoLogoWhatsapp size={20} /></RedeSocial></ListaFooter></Link>
 

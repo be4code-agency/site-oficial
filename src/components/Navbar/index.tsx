@@ -53,7 +53,7 @@ export default function Navbar(){
 
     <nav className={`navbar navbar-expand-lg fixed-top ${bgIsActive ? 'bgWhite' : ''}`}>
       <div className="container-fluid">
-        <Link to="/" className="navbar-brand"><LogoNavbar src={Logo} alt="Logo Noobiel" /></Link>
+        <Link to="/" className="navbar-brand"><LogoNavbar src={Logo} alt="Logo Be4Code" /></Link>
         <button className="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
           <IoMenu className='purple' size={30} />
         </button>

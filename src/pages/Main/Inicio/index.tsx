@@ -52,7 +52,7 @@ export default function Inicio(){
 
                 <picture>
                   <source type="image/png" srcSet={`${Banner1_768} 768w, ${Banner1_1024} 1024w, ${Banner1_1366} 1366w, ${Banner1_1600} 1600w, ${Banner1_1800} 1800w, ${Banner1_1920} 1919w, ${Banner1_1920} 1920w`} sizes="(max-aspect-ratio: 1800/844) 213vh" />
-                  <img fetchPriority="high" decoding="async" src={Banner1_1800} width="1800" height="844" alt="Ecossistema de marketing Noobiel Dev" loading="lazy" data-aos="fade-zoom-in" data-aos-delay="100" />
+                  <img fetchPriority="high" decoding="async" src={Banner1_1800} width="1800" height="844" alt="Ecossistema de marketing Be4Code" loading="lazy" data-aos="fade-zoom-in" data-aos-delay="100" />
                 </picture>
 
               <div className="carousel-caption">
@@ -83,7 +83,7 @@ export default function Inicio(){
 
                 <picture>
                   <source type="image/webp" srcSet={`${Banner2_768} 768w, ${Banner2_1024} 1024w, ${Banner2_1366} 1366w, ${Banner2_1600} 1600w, ${Banner2_1800} 1800w, ${Banner2_1920} 1919w, ${Banner2_1920} 1920w`} sizes="(max-aspect-ratio: 1800/844) 213vh" />
-                  <img fetchPriority="high" decoding="async" src={Banner2_1800} width="1800" height="844" alt="Ecossistema de marketing Noobiel Dev" loading="lazy" data-aos="fade-zoom-in" data-aos-delay="100" />
+                  <img fetchPriority="high" decoding="async" src={Banner2_1800} width="1800" height="844" alt="Ecossistema de marketing Be4Code" loading="lazy" data-aos="fade-zoom-in" data-aos-delay="100" />
                 </picture>
 
               <div className="carousel-caption">
@@ -114,7 +114,7 @@ export default function Inicio(){
 
                 <picture>
                   <source type="image/webp" srcSet={`${Banner3_768} 768w, ${Banner3_1024} 1024w, ${Banner3_1366} 1366w, ${Banner3_1600} 1600w, ${Banner3_1800} 1800w, ${Banner3_1920} 1919w, ${Banner3_1920} 1920w`} sizes="(max-aspect-ratio: 1800/844) 213vh" />
-                  <img fetchPriority="high" decoding="async" src={Banner3_1800} width="1800" height="844" alt="Ecossistema de marketing Noobiel Dev" loading="lazy" data-aos="fade-zoom-in" data-aos-delay="100" />
+                  <img fetchPriority="high" decoding="async" src={Banner3_1800} width="1800" height="844" alt="Ecossistema de marketing Be4Code" loading="lazy" data-aos="fade-zoom-in" data-aos-delay="100" />
                 </picture>
 
               <div className="carousel-caption">

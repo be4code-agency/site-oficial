@@ -132,11 +132,11 @@ export default function Engajamento(){
 
       <Navbar />
 
-      <InicioServicos banner={Banner} subTitulo="Gestão de Redes Sociais - Agência de Social Media em SP" titulo="Construa Relacionamentos Valiosos com Seu Público!" texto="Oferecemos gestão completa de redes sociais, com calendário de postagens, design criativo, captação e edição de conteúdos. Acompanhamos métricas para otimizar sua presença online e criar conexões reais com seu público. Conte com nossa expertise para destacar sua marca nas redes!" />
+      <InicioServicos banner={Banner} subTitulo="Gestão de Redes Sociais - Agência de Social Media" titulo="Construa Relacionamentos Valiosos com Seu Público!" texto="Oferecemos gestão completa de redes sociais, com calendário de postagens, design criativo, captação e edição de conteúdos. Acompanhamos métricas para otimizar sua presença online e criar conexões reais com seu público. Conte com nossa expertise para destacar sua marca nas redes!" />
 
       <TextoSessao titulo="Engajamento" texto="Criamos estratégias de Social Media para conectar sua marca ao público certo. Com conteúdos criativos, gestão eficiente e foco em engajamento, transformamos suas redes sociais em ferramentas poderosas para fortalecer sua marca, aumentar a interação e alcançar resultados reais." />
 
-      <Caracteristicas projetos={caracProjetos} subTitulo='Agência de Social Media em SP' produto='Engajamento' />
+      <Caracteristicas projetos={caracProjetos} subTitulo='Agência de Social Media' produto='Engajamento' />
 
       <CtaOrcamento titulo="Domine as Redes Sociais" msgWhatsapp="Gostaria de um orçamento para o Gerenciamento das minhas redes sociais" />
 

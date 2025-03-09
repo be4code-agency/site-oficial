@@ -132,11 +132,11 @@ export default function Marketing(){
 
       <Navbar />
 
-      <InicioServicos banner={Banner} subTitulo="Gestão de Google Ads e Meta Ads - Agência de Marketing Digital em SP" titulo="Estratégias de Anúncios que Convertem Cliques em Resultados!" texto="Gerenciamos campanhas no Google Ads e Meta Ads para impulsionar seu negócio. Com segmentação precisa, anúncios criativos e monitoramento constante, conectamos sua marca ao público certo, maximizando vendas e ROI. Invista em tráfego pago com quem entende de performance." />
+      <InicioServicos banner={Banner} subTitulo="Gestão de Google Ads e Meta Ads - Agência de Marketing Digital " titulo="Estratégias de Anúncios que Convertem Cliques em Resultados!" texto="Gerenciamos campanhas no Google Ads e Meta Ads para impulsionar seu negócio. Com segmentação precisa, anúncios criativos e monitoramento constante, conectamos sua marca ao público certo, maximizando vendas e ROI. Invista em tráfego pago com quem entende de performance." />
 
       <TextoSessao titulo="Marketing" texto="Criamos campanhas no Google Ads e Meta Ads que conectam sua marca ao público certo. Nosso objetivo é transformar investimentos em anúncios em resultados reais, aumentando vendas e destacando sua empresa no mercado digital." />
 
-      <Caracteristicas projetos={caracProjetos} subTitulo='Agência de Marketing Digital em SP' produto='Marketing' />
+      <Caracteristicas projetos={caracProjetos} subTitulo='Agência de Marketing Digital' produto='Marketing' />
 
       <CtaOrcamento titulo="Transforme Cliques em Clientes" msgWhatsapp="Gostaria de um orçamento para Google Ads e Meta Ads" />
 

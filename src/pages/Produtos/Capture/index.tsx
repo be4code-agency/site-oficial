@@ -169,11 +169,11 @@ export default function Capture(){
 
       <Navbar />
 
-      <InicioServicos banner={Banner} subTitulo="Fotografia e Gravação Profissional - Agência de Mídia em SP" titulo="Imagens que Contam Sua História de Forma Inesquecível" texto="Realizamos fotos e vídeos de alta qualidade, com técnicas inovadoras e filmagens aéreas com drones. Nosso foco é criar conteúdo visual impactante e envolvente, que transmite a mensagem da sua marca com clareza. Deixe-nos contar sua história com imagens incríveis que farão sua empresa se destacar." />
+      <InicioServicos banner={Banner} subTitulo="Fotografia e Gravação Profissional - Agência de Mídia" titulo="Imagens que Contam Sua História de Forma Inesquecível" texto="Realizamos fotos e vídeos de alta qualidade, com técnicas inovadoras e filmagens aéreas com drones. Nosso foco é criar conteúdo visual impactante e envolvente, que transmite a mensagem da sua marca com clareza. Deixe-nos contar sua história com imagens incríveis que farão sua empresa se destacar." />
 
       <TextoSessao titulo="Capture" texto="Criamos fotos e vídeos profissionais que capturam a essência da sua marca. Com o uso de drones e técnicas avançadas de gravação, proporcionamos conteúdos visuais únicos, que conectam sua empresa ao público de forma marcante e eficaz, destacando o que há de melhor em seu negócio." />
 
-      <Caracteristicas projetos={caracProjetos} subTitulo='Agência de Mídias em SP' produto='Capture' />
+      <Caracteristicas projetos={caracProjetos} subTitulo='Agência de Mídias' produto='Capture' />
 
       <CtaOrcamento titulo="Capture os Melhores Momentos" msgWhatsapp="Gostaria de um orçamento de filmagem e fotografia." />
 

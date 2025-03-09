@@ -98,7 +98,7 @@ export default function Inicio(){
                       <h2 data-aos="fade-right" data-aos-duration="1500">Criação de Identidade Visual e Fortalecimento da Marca</h2>
                       <p className='mb-4' data-aos="fade-right" data-aos-duration="1500">Desenvolvemos logotipos, paletas de cores e materiais gráficos exclusivos que traduzem a essência do seu negócio e criam conexões duradouras com seus clientes.</p>
 
-                      <Link to="https://wa.me/5511974808118" target='_blank' className='btn purpleBtn rounded'>Solicite um Orçamento <IoChevronForward /></Link>
+                      <Link to="https://wa.me/" target='_blank' className='btn purpleBtn rounded'>Solicite um Orçamento <IoChevronForward /></Link>
 
                     </div>
 
@@ -128,7 +128,7 @@ export default function Inicio(){
                       <h2 data-aos="fade-right" data-aos-duration="1500">Estratégias de Tráfego Pago e Mídia Online</h2>
                       <p className='mb-4' data-aos="fade-right" data-aos-duration="1500">Gerenciamento de campanhas em Google Ads, Meta Ads e outras plataformas para atrair mais leads, gerar vendas e fortalecer sua presença digital.</p>
 
-                      <Link to="https://wa.me/5511974808118" target='_blank' className='btn purpleBtn rounded'>Fale com um Especialista <IoChevronForward /></Link>
+                      <Link to="https://wa.me/" target='_blank' className='btn purpleBtn rounded'>Fale com um Especialista <IoChevronForward /></Link>
 
                     </div>
 

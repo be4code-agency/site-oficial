@@ -36,7 +36,7 @@ export default function SobreNos(){
 
             </div>
 
-            <Link to="https://wa.me/5511974808118" target="_blank" className="btn btn-lg gradientBtn">Consultoria Grátis <IoChevronForward /></Link>
+            <Link to="https://wa.me/" target="_blank" className="btn btn-lg gradientBtn">Consultoria Grátis <IoChevronForward /></Link>
 
           </div>
 

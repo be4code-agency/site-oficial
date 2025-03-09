@@ -26,7 +26,7 @@ export default function Orcamento(){
               <h3>Sites Personalizados, E-Commerce e Sistemas Web Exclusivos</h3>
             </div>
 
-            <Link to="https://wa.me/5511974808118" target="_blank" className="btn btn-lg rounded purpleBtn shadowBtn">Solicitar orçamento agora <IoChevronForwardOutline /></Link>
+            <Link to="https://wa.me/" target="_blank" className="btn btn-lg rounded purpleBtn shadowBtn">Solicitar orçamento agora <IoChevronForwardOutline /></Link>
 
           </Container>
 
@@ -40,7 +40,7 @@ export default function Orcamento(){
               <h2 className="mb-2">Quero solicitar um orçamento online para Estratégias de Marketing</h2>
               <h3>Tráfego Pago, SEO e Gestão de Mídias Digitais</h3>
             </div>
-            <Link to="https://wa.me/5511974808118" target="_blank" className="btn btn-lg rounded darkPurpleBtn">Solicitar orçamento agora <IoChevronForwardOutline /></Link>
+            <Link to="https://wa.me/" target="_blank" className="btn btn-lg rounded darkPurpleBtn">Solicitar orçamento agora <IoChevronForwardOutline /></Link>
 
           </Container>
 

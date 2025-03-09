@@ -33,7 +33,7 @@ export default function Preco({nome_cliente, valor, preco_a_vista, data_envio, v
             <p className='text-muted'>Mas à vista você pagara apenas:</p>
             <PrecoDesconto>{currencyFormat(preco_a_vista)}</PrecoDesconto>
 
-            <Botao href="https://wa.me/5511974808118?text=Entendi%20toda%20a%20Proposta,%20quero%20aproveitar%20a%20oferta." target='_blank' rel='noreferrer'>Garantir oferta</Botao>
+            <Botao href="https://wa.me/?text=Entendi%20toda%20a%20Proposta,%20quero%20aproveitar%20a%20oferta." target='_blank' rel='noreferrer'>Garantir oferta</Botao>
 
           </div>
 

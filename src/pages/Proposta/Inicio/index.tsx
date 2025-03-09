@@ -72,7 +72,7 @@ export default function Inicio({nome_cliente, data_envio, validade}: InicioProps
         <Saudacoes>Olá, <NomeCliente>{nome_cliente}</NomeCliente>. Esta é sua </Saudacoes>
         <TituloProposta>PROPOSTA <br /> COMERCIAL</TituloProposta>
 
-        <a className="purpleBtn fs-md-4 fs-5 mb-3" href="https://wa.me/5511974808118?text=Entendi%20toda%20a%20Proposta,%20quero%20aproveitar%20a%20oferta." target="_blank" rel="noreferrer">Garantir oferta</a>
+        <a className="purpleBtn fs-md-4 fs-5 mb-3" href="https://wa.me/?text=Entendi%20toda%20a%20Proposta,%20quero%20aproveitar%20a%20oferta." target="_blank" rel="noreferrer">Garantir oferta</a>
 
 
         <div className="d-flex flex-row justify-content-around justify-content-md-center align-items-center gap-md-5 w-100">

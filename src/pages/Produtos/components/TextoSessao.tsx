@@ -21,7 +21,7 @@ export default function TextoSessao({titulo, texto}: TextoSessao){
 
           <TextoTecnologia className="mb-4">{texto}</TextoTecnologia>
 
-          <a href="https://wa.me/5511974808118" className="btn purpleOutlineBtn rounded">Entre em Contato <IoChevronForwardOutline /></a>
+          <a href="https://wa.me/" className="btn purpleOutlineBtn rounded">Entre em Contato <IoChevronForwardOutline /></a>
 
         </div>
 

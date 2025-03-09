@@ -61,7 +61,7 @@ export default function Footer(){
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="https://wa.me/5511974808118" target="_blank" className="text-decoration-none">
+                <Link to="https://wa.me/" target="_blank" className="text-decoration-none">
                   <ListaFooter className="nav-link ps-0 white">Suporte</ListaFooter>
                 </Link>
               </li>
@@ -90,7 +90,7 @@ export default function Footer(){
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="https://wa.me/5511974808118" target="_blank" className="text-decoration-none">
+                <Link to="https://wa.me/" target="_blank" className="text-decoration-none">
                   <ListaFooter className="nav-link ps-0 white">Solicitar Orçamento</ListaFooter>
                 </Link>
               </li>
@@ -117,7 +117,7 @@ export default function Footer(){
 
               <li className="nav-item">
                 <ListaFooter className="nav-link ps-0">
-                  <Link className="text-decoration-none white" to="https://wa.me/5511974808118">+55 11 97480-8118</Link>
+                  <Link className="text-decoration-none white" to="https:instagram.com/be4code">@Be4Code</Link>
                 </ListaFooter>
               </li>
             </ul>
@@ -163,7 +163,7 @@ export default function Footer(){
                 <Link to="https://www.instagram.com/be4code/" target="_blank"><ListaFooter className="nav-link"><RedeSocial><IoLogoInstagram size={20} /></RedeSocial></ListaFooter></Link>
 
 
-                <Link to="https://wa.me/5511974808118" target="_blank"><ListaFooter className="nav-link"><RedeSocial><IoLogoWhatsapp size={20} /></RedeSocial></ListaFooter></Link>
+                <Link to="https://wa.me/" target="_blank"><ListaFooter className="nav-link"><RedeSocial><IoLogoWhatsapp size={20} /></RedeSocial></ListaFooter></Link>
 
             </div>
 

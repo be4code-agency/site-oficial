@@ -74,7 +74,7 @@ export default function Portfolio(){
 
           <Projeto imagem={McpSemetangua} titulo="Pré-Matrícula - Tanguá" tipoProjeto="SaaS (Software como Serviço)" texto="O site da Pré-Matrícula de Tanguá facilita o acesso à educação com cadastro online, escolha de escolas e acompanhamento claro e eficiente." tecnologias={['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'React', 'Sass', 'PHP', 'Laravel', 'MySQL']} link="https://semetangua.com.br" />
 
-          <Projeto imagem={McpSavegnagoBarber} titulo="Barbearia Savegnago" tipoProjeto="Site Institucional" texto="O site da Savegnago Barber destaca serviços de barbearia, agendamento online, contato e localização, com design moderno e intuitivo." tecnologias={['HTML', 'CSS', 'JavaScript', 'PHP', 'Wordpress']} link="https://savegnagobarber.be4code.com.br" />
+          <Projeto imagem={McpSavegnagoBarber} titulo="Barbearia Savegnago" tipoProjeto="Site Institucional" texto="O site da Savegnago Barber destaca serviços de barbearia, agendamento online, contato e localização, com design moderno e intuitivo." tecnologias={['HTML', 'CSS', 'JavaScript', 'PHP', 'Wordpress']} link="https://savegnagobarber.noobieldev.com.br" />
 
           <Projeto imagem={McpDogvibe} titulo="DogVibe - Tag identificação" tipoProjeto="SaaS (Software como Serviço)" texto="O sistema de identificação pet via QR Code conecta donos e pets com praticidade: leia o código e acesse perfil e contatos em segundos." tecnologias={['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'React', 'Sass', 'PHP', 'Laravel', 'MySQL']} link="https://petscan.dogvibe.com.br/login.php" />
 
@@ -82,14 +82,14 @@ export default function Portfolio(){
 
           <Projeto imagem={McpPerezBarros} titulo="Perez Barros - Contabilidade" tipoProjeto="Site Institucional" texto="O site da Perez Barros apresenta serviços contábeis, equipe e contatos, com design profissional e soluções personalizadas." tecnologias={['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'JQuery', 'PHP']} link="https://www.perezbarros.com.br" />
 
-          <Projeto imagem={McpEldorado} titulo="Eldorado - Pintura Predial" tipoProjeto="Site Institucional" texto="O site da Pintura Predial Eldorado apresenta serviços de pintura predial, residencial e industrial, com portfólio, depoimentos e fácil navegação." tecnologias={['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'JQuery', 'PHP']} link="https://eldorado.be4code.com.br" />
+          <Projeto imagem={McpEldorado} titulo="Eldorado - Pintura Predial" tipoProjeto="Site Institucional" texto="O site da Pintura Predial Eldorado apresenta serviços de pintura predial, residencial e industrial, com portfólio, depoimentos e fácil navegação." tecnologias={['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'JQuery', 'PHP']} link="https://eldorado.noobieldev.com.br" />
           <Projeto imagem={McpArcondicionado} titulo="DP Barros Ar-condicionados" tipoProjeto="Landing Page" texto="O site apresenta serviços de manutenção e limpeza de ar-condicionado, com navegação fácil, agendamento rápido e qualidade garantida." tecnologias={['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'JQuery', 'PHP']} link="https://dpbarrosarcondicionado.com.br" />
 
-          <Projeto imagem={McpKardbank} titulo="Kard Bank + AMP Barros" tipoProjeto="Site Institucional" texto="A parceria AMP Barros e KardBank oferece apoio a quem precisa, facilitando acesso a benefícios do governo com soluções rápidas e confiáveis." tecnologias={['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'JQuery', 'PHP', 'MySQL']} link="https://kardbank.be4code.com.br" />
+          <Projeto imagem={McpKardbank} titulo="Kard Bank + AMP Barros" tipoProjeto="Site Institucional" texto="A parceria AMP Barros e KardBank oferece apoio a quem precisa, facilitando acesso a benefícios do governo com soluções rápidas e confiáveis." tecnologias={['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'JQuery', 'PHP', 'MySQL']} link="https://kardbank.noobieldev.com.br" />
 
           <Projeto imagem={McpAmpBarros} titulo="AMP Barros - Promotora" tipoProjeto="Site Institucional" texto="O site da AMP Barros apresenta serviços contábeis e financeiros, com design claro, equipe qualificada, depoimentos e contato acessível." tecnologias={['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'JQuery', 'PHP', 'MySQL']} link="https://ampbarros.com.br" />
 
-          <Projeto imagem={McpFroiddsgn} titulo="Froid Designer" tipoProjeto="Site Institucional" texto="O site do designer destaca projetos únicos, método de trabalho, portfólio completo e facilita contato e orçamentos com navegação prática." tecnologias={['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'JQuery', 'PHP']} link="https://froiddsgn.be4code.com.br" />
+          <Projeto imagem={McpFroiddsgn} titulo="Froid Designer" tipoProjeto="Site Institucional" texto="O site do designer destaca projetos únicos, método de trabalho, portfólio completo e facilita contato e orçamentos com navegação prática." tecnologias={['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'JQuery', 'PHP']} link="https://froiddsgn.noobieldev.com.br" />
 
         </article>
 

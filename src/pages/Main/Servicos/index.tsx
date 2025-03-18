@@ -5,7 +5,7 @@ import { Service } from "./Service";
 import CostumizationIcon from '../../../img/icones/site_personalizado.png';
 import OptimizationIcon from '../../../img/icones/otimizacao.png';
 import TrafegoPagoIcon from '../../../img/icones/ads_icon.png';
-import SeoIcon from '../../../img/icones/seo.png';
+import filmageDrone from '../../../img/icones/produtos/capture/drone.svg';
 import EcommerceIcon from '../../../img//icones/ecommerce.png';
 import SocialMedia from '../../../img//icones/social_media_icon.png';
 
@@ -52,7 +52,7 @@ export default function Servicos(){
 
         <div className="col-sm-6 col-xl-4 mb-4" data-aos="zoom-in" data-aos-delay="250">
 
-          <Service icon={SeoIcon} title="SEO" text="Estratégias de SEO personalizadas para aumentar a visibilidade e o ranking do seu site nos motores de busca." altIcon="Icone serviço SEO Personalizado" />
+          <Service icon={filmageDrone} title="Filmagens com Drone" text="Utilizamos drones para capturar imagens aéreas impressionantes, oferecendo uma nova perspectiva e visual diferenciado." altIcon="Icone serviço Filmagem com Drone" />
 
         </div>
 

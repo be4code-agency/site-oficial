@@ -18,6 +18,8 @@ import SocialMedia from '../../../img/icones/produtos/design/design_social_media
 import EstrategiaMarca from '../../../img/icones/produtos/design/estrategia_de_marca.svg';
 import IdentidadeVisual from '../../../img/icones/produtos/design/identidade_visual.svg';
 import CriacaoLogo from '../../../img/icones/produtos/design/criacao_logotipo.svg';
+import MateriaisGraficos from '../../../img/icones/produtos/design/materiais_graficos.svg';
+import ComunicacaoVisual from '../../../img/icones/produtos/design/comunicacao_visual.svg';
 
 import Adatha from '../../../img/projetos/design/adtha.avif';
 import BerryCloset from '../../../img/projetos/design/berry_closet.avif';
@@ -31,27 +33,39 @@ export default function Design(){
   const caracProjetos = [
     {
     titulo: 'Criação de logotipo',
-    texto: 'Desenvolvemos sites sob medida, com design moderno e totalmente responsivos, para garantir uma excelente experiência de navegação em todos os dispositivos. Cada site é criado para refletir a identidade única da sua marca e otimizar sua presença online.',
+    texto: 'Criamos logotipos exclusivos que representam sua empresa com estilo e profissionalismo. Sua marca ganha identidade forte e memorável.',
     icone: CriacaoLogo
     },
 
     {
-    titulo: 'Criação de identidade visual',
-    texto: 'Criamos landing pages otimizadas para gerar mais leads e conversões. Nossos projetos são focados em design atrativo, conteúdo persuasivo e call to actions estratégicos, tudo com o objetivo de aumentar sua taxa de conversão.',
+    titulo: 'Identidade visual',
+    texto: 'Construímos uma identidade visual completa, com cores, fontes e elementos que transmitem a essência da sua marca e conquistam seu público.',
     icone: IdentidadeVisual
     },
 
     {
     titulo: 'Estratégia de marca',
-    texto: 'Criamos soluções personalizadas em modelo SaaS (Software as a Service), que oferecem flexibilidade, escalabilidade e alto desempenho. Nossos sistemas são projetados para atender às necessidades específicas do seu negócio, com total segurança e agilidade.',
+    texto: 'Definimos a melhor estratégia visual para sua empresa se posicionar no mercado, garantindo reconhecimento e conexão com seus clientes.',
     icone: EstrategiaMarca
     },
 
     {
-    titulo: 'Design para social media',
-    texto: 'Desenvolvemos lojas virtuais integradas, com design responsivo e funcionalidades que oferecem uma experiência de compra fluida e segura. Nossos e-commerces são otimizados para aumentar as vendas e atrair mais clientes.',
+    titulo: 'Artes para Rede Social',
+    texto: 'Criamos artes para posts e stories, tornando sua marca mais atrativa e engajadora no Instagram, Facebook e outras redes sociais.',
     icone: SocialMedia
-    }
+    },
+
+    {
+    titulo: 'Materiais Gráficos',
+    texto: 'Desenvolvemos materiais gráficos como cartões, banners e apresentações para reforçar sua marca e causar uma ótima impressão.',
+    icone: MateriaisGraficos
+    },
+
+    {
+    titulo: 'Comunicação Visual',
+    texto: 'Um bom design faz toda a diferença. Criamos um visual exclusivo para sua empresa ser reconhecida e lembrada pelo público.',
+    icone: ComunicacaoVisual
+    },
 
   ]
 
@@ -155,11 +169,11 @@ export default function Design(){
 
       <Navbar />
 
-      <InicioServicos banner={Banner} subTitulo="Identidade Visual, Logotipos e Estratégia de Marca - Agência de Design em SP" titulo="Marcas estratégicas que conectam histórias e geram resultados!" texto="Desenvolvemos logotipos e identidades visuais que comunicam a essência do seu negócio. Com um design estratégico e marcante, ajudamos sua marca a se destacar e atrair o público certo. Sua imagem, repensada para conquistar." />
+      <InicioServicos banner={Banner} subTitulo="Identidade Visual, Logotipos e Estratégia de Marca - Agência de Design" titulo="Marcas estratégicas que conectam histórias e geram resultados!" texto="Desenvolvemos logotipos e identidades visuais que comunicam a essência do seu negócio. Com um design estratégico e marcante, ajudamos sua marca a se destacar e atrair o público certo. Sua imagem, repensada para conquistar." />
 
       <TextoSessao titulo="Design" texto="Criamos logotipos e materiais visuais que comunicam sua mensagem de forma clara e atrativa. Nossa missão é transformar sua marca em um diferencial competitivo no mercado." />
 
-      <Caracteristicas projetos={caracProjetos} subTitulo='Agência de Design e Criativos em SP' produto='Design' />
+      <Caracteristicas projetos={caracProjetos} subTitulo='Agência de Design e Criativos' produto='Design' />
 
       <CtaOrcamento titulo="Crie Sua Identidade Visual" msgWhatsapp="Gostaria de um orçamento para uma Logo ou Identidade visual" />
 

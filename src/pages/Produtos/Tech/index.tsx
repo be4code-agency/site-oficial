@@ -35,57 +35,39 @@ export default function Tech(){
 
   const caracProjetos = [
     {
-    titulo: 'Criação de Sites Personalizados',
-    texto: 'Desenvolvemos sites sob medida, com design moderno e totalmente responsivos, para garantir uma excelente experiência de navegação em todos os dispositivos. Cada site é criado para refletir a identidade única da sua marca e otimizar sua presença online.',
+    titulo: 'Sites Profissionais',
+    texto: 'Criamos sites modernos, rápidos e fáceis de usar. Seu negócio terá uma presença online forte, com um design que atrai clientes e gera resultados.',
     icone: SitePersonalizados
     },
 
     {
-    titulo: 'Landing Pages de Alta Conversão',
-    texto: 'Criamos landing pages otimizadas para gerar mais leads e conversões. Nossos projetos são focados em design atrativo, conteúdo persuasivo e call to actions estratégicos, tudo com o objetivo de aumentar sua taxa de conversão.',
+    titulo: 'Landing Pages',
+    texto: 'Criamos landing pages rápidas e estratégicas para atrair clientes e aumentar suas vendas. Com design atrativo e otimizado, garantimos mais resultados para seu negócio.',
     icone: LandingPages
     },
 
     {
     titulo: 'Desenvolvimento de Sistemas',
-    texto: 'Criamos soluções personalizadas em modelo SaaS (Software as a Service), que oferecem flexibilidade, escalabilidade e alto desempenho. Nossos sistemas são projetados para atender às necessidades específicas do seu negócio, com total segurança e agilidade.',
+    texto: 'Desenvolvemos sistemas personalizados para facilitar sua rotina e melhorar seus processos. Soluções rápidas, seguras e feitas para você.',
     icone: DevSistemas
     },
 
     {
-    titulo: 'Criação de E-Commerce',
-    texto: 'Desenvolvemos lojas virtuais integradas, com design responsivo e funcionalidades que oferecem uma experiência de compra fluida e segura. Nossos e-commerces são otimizados para aumentar as vendas e atrair mais clientes.',
+    titulo: ' E-commerce',
+    texto: 'Desenvolvemos lojas virtuais otimizadas para conversões. Seu e-commerce será rápido, seguro e fácil de gerenciar, garantindo mais vendas online.',
     icone: Ecommerce
     },
 
     {
     titulo: 'Otimização para o Google (SEO)',
-    texto: 'Aplicamos técnicas avançadas de SEO para garantir que seu site tenha um bom posicionamento no Google. Com estratégias focadas em palavras-chave, conteúdos relevantes e otimização técnica, ajudamos sua empresa a ser encontrada com mais facilidade pelos clientes.',
+    texto: 'Apareça no Google e atraia mais visitantes! Otimizamos seu site para os mecanismos de busca, melhorando seu posicionamento e aumentando seus acessos.',
     icone: SeoIcon
     },
 
     {
-    titulo: 'Ferramentas de Vendas Integradas',
-    texto: 'Integrando as melhores ferramentas de vendas, facilitamos o gerenciamento de processos e a automação de suas estratégias comerciais. Nossos sistemas otimizam a experiência do cliente, desde o primeiro contato até a conversão final.',
-    icone: VendasIntegradas
-    },
-
-    {
-    titulo: 'Suporte Contínuo da Equipe',
-    texto: 'Oferecemos suporte contínuo e especializado para garantir que sua plataforma esteja sempre funcionando de forma eficiente. Nossa equipe está disponível para resolver qualquer problema, garantindo o sucesso a longo prazo do seu projeto.',
+    titulo: 'Suporte e Atualizações',
+    texto: 'Garantimos que seu site ou sistema esteja sempre atualizado e funcionando sem problemas. Conte com nosso suporte para segurança e melhorias constantes.',
     icone: SuporteContinuo
-    },
-
-    {
-    titulo: 'Integração de Ferramentas e Sistemas',
-    texto: 'Facilitamos a integração entre diversas ferramentas e sistemas para otimizar processos e melhorar a comunicação entre suas plataformas. Com integração eficiente, garantimos que todos os dados fluam de maneira contínua e sem falhas.',
-    icone: IntegracaoFerramenta
-    },
-
-    {
-    titulo: 'Gerenciamento Facilitado',
-    texto: 'Nossos sistemas e plataformas oferecem interfaces simples e intuitivas para um gerenciamento facilitado. Você pode controlar, monitorar e ajustar suas operações com facilidade, sem a necessidade de habilidades técnicas avançadas.',
-    icone: GerenciamentoFacilitado
     },
 
   ]

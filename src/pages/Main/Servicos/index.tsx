@@ -74,7 +74,7 @@ export default function Servicos(){
 
         <div className="col-12 text-center" data-aos="zoom-in" data-aos-delay="100">
 
-          <Link to="https://wa.me/" target="_blank" rel="noreferrer"  className="btn btn-lg gradientBtn">Consultoria Grátis <IoChevronForwardOutline /></Link>
+          <Link to={`https://wa.me/${process.env.REACT_APP_CONTACT_NUMBER}`} target="_blank" rel="noreferrer"  className="btn btn-lg gradientBtn">Consultoria Grátis <IoChevronForwardOutline /></Link>
 
         </div>
 

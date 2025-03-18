@@ -17,6 +17,7 @@ import TumbDesign from '../../img/tumb/tumb_design.avif';
 import TumbMarketing from '../../img/tumb/tumb_marketing.avif';
 import TumbEngajamento from '../../img/tumb/tumb_engajamento.avif';
 import TumbCapture from '../../img/tumb/tumb_capture.avif';
+import { Helmet } from 'react-helmet';
 
 export default function Produtos(){
 
@@ -63,6 +64,39 @@ export default function Produtos(){
   return(
 
     <Suspense fallback={<PreLoader />}>
+
+      <Helmet>
+        <title>Be4Code | Produtos</title>
+        <meta name="description" content="Explore nossos produtos e descubra soluções completas para impulsionar o crescimento da sua empresa. Oferecemos serviços de Tech, Design, Marketing, Engajamento e Capture para atender suas necessidades." />
+
+        <meta property="og:title" content="Be4Code | Produtos" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://be4code.com.br/produtos" />
+        <meta property="og:image" content="https://be4code.com.br/static/media/gabriel.f7a5d0bf107b18a83380.webp" />
+        <meta property="og:image:url" content="https://be4code.com.br/static/media/gabriel.f7a5d0bf107b18a83380.webp" />
+        <meta property="og:description" content="Explore nossos produtos e descubra soluções completas para impulsionar o crescimento da sua empresa. Oferecemos serviços de Tech, Design, Marketing, Engajamento e Capture para atender suas necessidades." />
+        <meta property="og:site_name" content="Be4Code | Produtos" />
+
+        <meta name="twitter:title" content="Be4Code | Produtos" />
+        <meta name="twitter:description" content="Explore nossos produtos e descubra soluções completas para impulsionar o crescimento da sua empresa. Oferecemos serviços de Tech, Design, Marketing, Engajamento e Capture para atender suas necessidades." />
+        <meta name="twitter:card" content="website" />
+        <meta name="twitter:image" content="https://be4code.com.br/static/media/gabriel.f7a5d0bf107b18a83380.webp" />
+        <meta name="twitter:site" content="https://be4code.com.br/produtos" />
+
+        <link rel="alternate" href="https://be4code.com.br/produtos" hrefLang="pt-br" />
+        <link rel="canonical" href="https://be4code.com.br/produtos" />
+
+        <meta name="keywords" content="Desenvolvimento Web, Desenvolvimento de Sites, Criação de Sites, Criação de Sites Profissionais, Criação de Landing Pages, Criação de Sites E-Commerce, Criação de Sites Institucionais, Criação de Sites de Venda, Criação de Sites de Venda Online, Criação de Sites de Venda Presencial, Criação de Sites de Venda Digital, Criação de Sites de Venda Online, Criação de Sites de Venda Presencial, Criação de Sites de Venda Digital" />
+
+        <meta name="author" content="Be4Code" />
+
+        <meta name="robots" content="noindex, nofollow" />
+
+        <meta name="language" content="Portuguese" />
+
+        <meta name="revisit-after" content="7 days" />
+
+      </Helmet>
 
       <Navbar />
 

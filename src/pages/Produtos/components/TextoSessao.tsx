@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import {TituloTecnologia, TextoTecnologia } from './styles';
 
 import { IoChevronForwardOutline } from "react-icons/io5";
@@ -21,7 +22,7 @@ export default function TextoSessao({titulo, texto}: TextoSessao){
 
           <TextoTecnologia className="mb-4">{texto}</TextoTecnologia>
 
-          <a href="https://wa.me/" className="btn purpleOutlineBtn rounded">Entre em Contato <IoChevronForwardOutline /></a>
+          <Link to={`https://wa.me/${process.env.REACT_APP_CONTACT_NUMBER}`} className="btn purpleOutlineBtn rounded">Entre em Contato <IoChevronForwardOutline /></Link>
 
         </div>
 

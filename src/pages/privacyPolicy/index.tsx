@@ -89,7 +89,7 @@ export default function PolicyPrivacy() {
         </ul>
 
         <h2 className="mb-3">6. Exercício de Direitos</h2>
-        <p className="mb-4">Para exercer seus direitos ou caso tenha qualquer dvida sobre esta Política de Privacidade, entre em contato conosco através do email <a href="mailto:contato@be4code.com.br">contato@be4code.com.br</a> ou pelo telefone <a href="tel:+">+55 (11) 97480-8118</a>.</p>
+        <p className="mb-4">Para exercer seus direitos ou caso tenha qualquer dvida sobre esta Política de Privacidade, entre em contato conosco através do email <a href="mailto:contato@be4code.com.br">contato@be4code.com.br</a> ou pelo telefone <a href={`https://wa.me/${process.env.REACT_APP_CONTACT_NUMBER}`}>{process.env.REACT_APP_CONTACT_NUMBER}</a>.</p>
 
         <h2 className="mb-3">7. Alteraçes na Política de Privacidade</h2>
         <p className="mb-4">Podemos atualizar esta Política de Privacidade periodicamente. Recomendamos que você reveja esta política regularmente para se manter informado sobre como estamos protegendo seus dados.</p>
@@ -100,7 +100,7 @@ export default function PolicyPrivacy() {
         <h2 className="mb-3">9. Contato</h2>
         <p>Be4Code<br />
         Email: <a href="mailto:contato@be4code.com.br">contato@be4code.com.br</a><br />
-        Telefone: <a href="tel:+">+55 (11) 97480-8118</a><br />
+        Telefone: <a href={`https://wa.me/${process.env.REACT_APP_CONTACT_NUMBER}`}>{process.env.REACT_APP_CONTACT_NUMBER}</a><br />
         </p>
       </div>
 

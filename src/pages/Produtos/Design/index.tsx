@@ -27,6 +27,7 @@ import CheetahBar from '../../../img/projetos/design/CheetahBar.avif';
 import Club from '../../../img/projetos/design/club.avif';
 import LowFlight from '../../../img/projetos/design/low_flight.avif';
 import NahoraApp from '../../../img/projetos/design/nahora_app.avif';
+import { Helmet } from 'react-helmet';
 
 export default function Design(){
 
@@ -166,6 +167,39 @@ export default function Design(){
   return(
 
     <Suspense fallback={<PreLoader />}>
+
+      <Helmet>
+        <title>Be4Code | Design</title>
+        <meta name="description" content="Transforme a imagem da sua marca com designs exclusivos, criação de logotipos e identidade visual personalizada. Ajudamos sua empresa a se destacar e conquistar o público certo." />
+
+        <meta property="og:title" content="Be4Code | Design" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://be4code.com.br/produtos/design" />
+        <meta property="og:image" content="https://be4code.com.br/static/media/gabriel.f7a5d0bf107b18a83380.webp" />
+        <meta property="og:image:url" content="https://be4code.com.br/static/media/gabriel.f7a5d0bf107b18a83380.webp" />
+        <meta property="og:description" content="Transforme a imagem da sua marca com designs exclusivos, criação de logotipos e identidade visual personalizada. Ajudamos sua empresa a se destacar e conquistar o público certo." />
+        <meta property="og:site_name" content="Be4Code | Design" />
+
+        <meta name="twitter:title" content="Be4Code | Design" />
+        <meta name="twitter:description" content="Transforme a imagem da sua marca com designs exclusivos, criação de logotipos e identidade visual personalizada. Ajudamos sua empresa a se destacar e conquistar o público certo." />
+        <meta name="twitter:card" content="website" />
+        <meta name="twitter:image" content="https://be4code.com.br/static/media/gabriel.f7a5d0bf107b18a83380.webp" />
+        <meta name="twitter:site" content="https://be4code.com.br/produtos/design" />
+
+        <link rel="alternate" href="https://be4code.com.br/produtos/design" hrefLang="pt-br" />
+        <link rel="canonical" href="https://be4code.com.br/produtos/design" />
+
+        <meta name="keywords" content="Desenvolvimento Web, Desenvolvimento de Sites, Criação de Sites, Criação de Sites Profissionais, Criação de Landing Pages, Criação de Sites E-Commerce, Criação de Sites Institucionais, Criação de Sites de Venda, Criação de Sites de Venda Online, Criação de Sites de Venda Presencial, Criação de Sites de Venda Digital, Criação de Sites de Venda Online, Criação de Sites de Venda Presencial, Criação de Sites de Venda Digital" />
+
+        <meta name="author" content="Be4Code" />
+
+        <meta name="robots" content="noindex, nofollow" />
+
+        <meta name="language" content="Portuguese" />
+
+        <meta name="revisit-after" content="7 days" />
+
+      </Helmet>
 
       <Navbar />
 

@@ -19,6 +19,7 @@ import CaptacaoEdicao from '../../../img/icones/produtos/engajamento/captacao_ed
 import Metricas from '../../../img/icones/produtos/marketing/relatorios_detalhados.svg';
 import GestaoRedesSociais from '../../../img/icones/produtos/engajamento/gestao_rede_sociais.svg';
 import PublicoAlvo from '../../../img/icones/produtos/marketing/segmentacao_precisa.svg';
+import { Helmet } from 'react-helmet';
 
 export default function Engajamento(){
 
@@ -129,6 +130,39 @@ export default function Engajamento(){
   return(
 
     <Suspense fallback={<PreLoader />}>
+
+      <Helmet>
+        <title>Be4Code | Engajamento</title>
+        <meta name="description" content="Aumente sua presença nas redes sociais com nosso serviço de engajamento. Oferecemos gestão de conteúdo, criação de posts e monitoramento de métricas para conectar sua marca ao público." />
+
+        <meta property="og:title" content="Be4Code | Engajamento" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://be4code.com.br/produtos/engajamento" />
+        <meta property="og:image" content="https://be4code.com.br/static/media/gabriel.f7a5d0bf107b18a83380.webp" />
+        <meta property="og:image:url" content="https://be4code.com.br/static/media/gabriel.f7a5d0bf107b18a83380.webp" />
+        <meta property="og:description" content="Aumente sua presença nas redes sociais com nosso serviço de engajamento. Oferecemos gestão de conteúdo, criação de posts e monitoramento de métricas para conectar sua marca ao público." />
+        <meta property="og:site_name" content="Be4Code | Engajamento" />
+
+        <meta name="twitter:title" content="Be4Code | Engajamento" />
+        <meta name="twitter:description" content="Aumente sua presença nas redes sociais com nosso serviço de engajamento. Oferecemos gestão de conteúdo, criação de posts e monitoramento de métricas para conectar sua marca ao público." />
+        <meta name="twitter:card" content="website" />
+        <meta name="twitter:image" content="https://be4code.com.br/static/media/gabriel.f7a5d0bf107b18a83380.webp" />
+        <meta name="twitter:site" content="https://be4code.com.br/produtos/engajamento" />
+
+        <link rel="alternate" href="https://be4code.com.br/produtos/engajamento" hrefLang="pt-br" />
+        <link rel="canonical" href="https://be4code.com.br/produtos/engajamento" />
+
+        <meta name="keywords" content="Desenvolvimento Web, Desenvolvimento de Sites, Criação de Sites, Criação de Sites Profissionais, Criação de Landing Pages, Criação de Sites E-Commerce, Criação de Sites Institucionais, Criação de Sites de Venda, Criação de Sites de Venda Online, Criação de Sites de Venda Presencial, Criação de Sites de Venda Digital, Criação de Sites de Venda Online, Criação de Sites de Venda Presencial, Criação de Sites de Venda Digital" />
+
+        <meta name="author" content="Be4Code" />
+
+        <meta name="robots" content="noindex, nofollow" />
+
+        <meta name="language" content="Portuguese" />
+
+        <meta name="revisit-after" content="7 days" />
+
+      </Helmet>
 
       <Navbar />
 

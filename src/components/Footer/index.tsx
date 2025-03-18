@@ -61,7 +61,7 @@ export default function Footer(){
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="https://wa.me/" target="_blank" className="text-decoration-none">
+                <Link to={`https://wa.me/${process.env.REACT_APP_CONTACT_NUMBER}`} target="_blank" className="text-decoration-none">
                   <ListaFooter className="nav-link ps-0 white">Suporte</ListaFooter>
                 </Link>
               </li>
@@ -90,7 +90,7 @@ export default function Footer(){
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="https://wa.me/" target="_blank" className="text-decoration-none">
+                <Link to={`https://wa.me/${process.env.REACT_APP_CONTACT_NUMBER}`} target="_blank" className="text-decoration-none">
                   <ListaFooter className="nav-link ps-0 white">Solicitar Orçamento</ListaFooter>
                 </Link>
               </li>
@@ -163,7 +163,7 @@ export default function Footer(){
                 <Link to="https://www.instagram.com/be4code/" target="_blank"><ListaFooter className="nav-link"><RedeSocial><IoLogoInstagram size={20} /></RedeSocial></ListaFooter></Link>
 
 
-                <Link to="https://wa.me/" target="_blank"><ListaFooter className="nav-link"><RedeSocial><IoLogoWhatsapp size={20} /></RedeSocial></ListaFooter></Link>
+                <Link to={`https://wa.me/${process.env.REACT_APP_CONTACT_NUMBER}`} target="_blank"><ListaFooter className="nav-link"><RedeSocial><IoLogoWhatsapp size={20} /></RedeSocial></ListaFooter></Link>
 
             </div>
 

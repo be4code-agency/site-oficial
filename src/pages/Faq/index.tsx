@@ -10,6 +10,7 @@ const PerguntasFaq = React.lazy(()=> import('./Perguntas'));
 import { PreLoader } from "../../components/PreLoader";
 
 import Banner from '../../img/banners/faq/banner_faq.webp';
+import { Helmet } from "react-helmet";
 
 
 export default function Faq(){
@@ -117,6 +118,39 @@ export default function Faq(){
   return(
 
     <Suspense fallback={<PreLoader />}>
+
+      <Helmet>
+        <title>Be4Code | FAQ</title>
+        <meta name="description" content="Encontre respostas para as dúvidas mais comuns sobre nossos produtos e serviços. Na nossa página de FAQ, você encontra informações sobre Tech, Design, Marketing, Engajamento e Capture, ajudando a esclarecer tudo o que você precisa saber." />
+
+        <meta property="og:title" content="Be4Code | FAQ" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://be4code.com.br/faq" />
+        <meta property="og:image" content="https://be4code.com.br/static/media/gabriel.f7a5d0bf107b18a83380.webp" />
+        <meta property="og:image:url" content="https://be4code.com.br/static/media/gabriel.f7a5d0bf107b18a83380.webp" />
+        <meta property="og:description" content="Encontre respostas para as dúvidas mais comuns sobre nossos produtos e serviços. Na nossa página de FAQ, você encontra informações sobre Tech, Design, Marketing, Engajamento e Capture, ajudando a esclarecer tudo o que você precisa saber." />
+        <meta property="og:site_name" content="Be4Code | FAQ" />
+
+        <meta name="twitter:title" content="Be4Code | FAQ" />
+        <meta name="twitter:description" content="Encontre respostas para as dúvidas mais comuns sobre nossos produtos e serviços. Na nossa página de FAQ, você encontra informações sobre Tech, Design, Marketing, Engajamento e Capture, ajudando a esclarecer tudo o que você precisa saber." />
+        <meta name="twitter:card" content="website" />
+        <meta name="twitter:image" content="https://be4code.com.br/static/media/gabriel.f7a5d0bf107b18a83380.webp" />
+        <meta name="twitter:site" content="https://be4code.com.br/faq" />
+
+        <link rel="alternate" href="https://be4code.com.br/faq" hrefLang="pt-br" />
+        <link rel="canonical" href="https://be4code.com.br/faq" />
+
+        <meta name="keywords" content="Desenvolvimento Web, Desenvolvimento de Sites, Criação de Sites, Criação de Sites Profissionais, Criação de Landing Pages, Criação de Sites E-Commerce, Criação de Sites Institucionais, Criação de Sites de Venda, Criação de Sites de Venda Online, Criação de Sites de Venda Presencial, Criação de Sites de Venda Digital, Criação de Sites de Venda Online, Criação de Sites de Venda Presencial, Criação de Sites de Venda Digital" />
+
+        <meta name="author" content="Be4Code" />
+
+        <meta name="robots" content="noindex, nofollow" />
+
+        <meta name="language" content="Portuguese" />
+
+        <meta name="revisit-after" content="7 days" />
+
+      </Helmet>
 
       <Navbar />
 

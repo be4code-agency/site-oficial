@@ -123,13 +123,13 @@ export default function Navbar(){
               </li>
 
               <li className="nav-item">
-                <Link to='https://wa.me/' target='_blank' className='nav-link'>
+                <Link to={`https://wa.me/${process.env.REACT_APP_CONTACT_NUMBER}`} target='_blank' className='nav-link'>
                   <NavItem isBlack={bgIsActive} widthScreen={widthScreen} data-bs-dismiss="offcanvas">Solicitar Orçamento</NavItem>
                 </Link>
               </li>
 
               <li className="nav-item">
-                <Link to='https://wa.me/' target='_blank' className='nav-link'>
+                <Link to={`https://wa.me/${process.env.REACT_APP_CONTACT_NUMBER}`} target='_blank' className='nav-link'>
                   <NavItem isBlack={bgIsActive} widthScreen={widthScreen} data-bs-dismiss="offcanvas">Suporte</NavItem>
                 </Link>
               </li>
@@ -138,7 +138,7 @@ export default function Navbar(){
 
             <ul className="navbar-nav justify-content-end pe-3">
               <li className="nav-item">
-                <Link to="https://wa.me/" target='_blank' className='btn purpleBtn w-100 rounded'><IoLogoWhatsapp /> Fale Conosco</Link>
+                <Link to={`https://wa.me/${process.env.REACT_APP_CONTACT_NUMBER}`} target='_blank' className='btn purpleBtn w-100 rounded'><IoLogoWhatsapp /> Fale Conosco</Link>
               </li>
             </ul>
 

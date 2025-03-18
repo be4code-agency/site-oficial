@@ -27,6 +27,7 @@ import kardbank from '../../../img/projetos/capture/DJI_0303.jpg';
 import BarbeariaGringa from '../../../img/projetos/capture/DJI_0465.jpg';
 import SavegnagoBarber from '../../../img/projetos/capture/DJI_0499.jpg';
 import Eldorado from '../../../img/projetos/capture/DJI_0500.jpg';
+import { Helmet } from 'react-helmet';
 
 export default function Capture(){
 
@@ -166,6 +167,39 @@ export default function Capture(){
   return(
 
     <Suspense fallback={<PreLoader />}>
+
+      <Helmet>
+        <title>Be4Code | Capture</title>
+        <meta name="description" content="Oferecemos serviços de fotografia, gravação e edição de alta qualidade, incluindo imagens e vídeos com drone, para capturar momentos únicos e aumentar a presença da sua marca." />
+
+        <meta property="og:title" content="Be4Code | Capture" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://be4code.com.br/produtos/capture" />
+        <meta property="og:image" content="https://be4code.com.br/static/media/gabriel.f7a5d0bf107b18a83380.webp" />
+        <meta property="og:image:url" content="https://be4code.com.br/static/media/gabriel.f7a5d0bf107b18a83380.webp" />
+        <meta property="og:description" content="Oferecemos serviços de fotografia, gravação e edição de alta qualidade, incluindo imagens e vídeos com drone, para capturar momentos únicos e aumentar a presença da sua marca." />
+        <meta property="og:site_name" content="Be4Code | Capture" />
+
+        <meta name="twitter:title" content="Be4Code | Capture" />
+        <meta name="twitter:description" content="Oferecemos serviços de fotografia, gravação e edição de alta qualidade, incluindo imagens e vídeos com drone, para capturar momentos únicos e aumentar a presença da sua marca." />
+        <meta name="twitter:card" content="website" />
+        <meta name="twitter:image" content="https://be4code.com.br/static/media/gabriel.f7a5d0bf107b18a83380.webp" />
+        <meta name="twitter:site" content="https://be4code.com.br/produtos/capture" />
+
+        <link rel="alternate" href="https://be4code.com.br/produtos/capture" hrefLang="pt-br" />
+        <link rel="canonical" href="https://be4code.com.br/produtos/capture" />
+
+        <meta name="keywords" content="Desenvolvimento Web, Desenvolvimento de Sites, Criação de Sites, Criação de Sites Profissionais, Criação de Landing Pages, Criação de Sites E-Commerce, Criação de Sites Institucionais, Criação de Sites de Venda, Criação de Sites de Venda Online, Criação de Sites de Venda Presencial, Criação de Sites de Venda Digital, Criação de Sites de Venda Online, Criação de Sites de Venda Presencial, Criação de Sites de Venda Digital" />
+
+        <meta name="author" content="Be4Code" />
+
+        <meta name="robots" content="noindex, nofollow" />
+
+        <meta name="language" content="Portuguese" />
+
+        <meta name="revisit-after" content="7 days" />
+
+      </Helmet>
 
       <Navbar />
 

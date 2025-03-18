@@ -2,6 +2,8 @@ import React, { Suspense } from 'react';
 
 import { PreLoader } from '../../../components/PreLoader';
 
+import { Helmet } from 'react-helmet';
+
 const Navbar = React.lazy(() => import("../../../components/Navbar"));
 const InicioServicos = React.lazy(() => import("../components/inicio"));
 const TextoSessao = React.lazy(() => import("../components/TextoSessao"));
@@ -19,10 +21,7 @@ import LandingPages from '../../../img/icones/produtos/tech/landing_page.svg';
 import DevSistemas from '../../../img/icones/produtos/tech/desenvolvimento_sistemas.svg';
 import Ecommerce from '../../../img/icones/produtos/tech/ecommerce.svg';
 import SeoIcon from '../../../img/icones/seo.png';
-import VendasIntegradas from '../../../img/icones/produtos/tech/vendas_integradas.svg';
 import SuporteContinuo from '../../../img/icones/produtos/tech/suporte_continuo.svg';
-import IntegracaoFerramenta from '../../../img/icones/produtos/tech/integracao_ferramentas.svg';
-import GerenciamentoFacilitado from '../../../img/icones/produtos/tech/gerenciamento.svg';
 
 import AmazoniaViva from '../../../img/projetos/tech/amazonia_viva.avif';
 import Galfort from '../../../img/projetos/tech/galfort.avif';
@@ -164,6 +163,39 @@ export default function Tech(){
   return(
 
     <Suspense fallback={<PreLoader />}>
+
+      <Helmet>
+        <title>Be4Code | Tech</title>
+        <meta name="description" content="Oferecemos desenvolvimento de sites, e-commerce, otimização de SEO e soluções web completas para garantir a melhor experiência e resultados para o seu negócio online." />
+
+        <meta property="og:title" content="Be4Code | Tech" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://be4code.com.br/produtos/tech" />
+        <meta property="og:image" content="https://be4code.com.br/static/media/gabriel.f7a5d0bf107b18a83380.webp" />
+        <meta property="og:image:url" content="https://be4code.com.br/static/media/gabriel.f7a5d0bf107b18a83380.webp" />
+        <meta property="og:description" content="Oferecemos desenvolvimento de sites, e-commerce, otimização de SEO e soluções web completas para garantir a melhor experiência e resultados para o seu negócio online." />
+        <meta property="og:site_name" content="Be4Code | Tech" />
+
+        <meta name="twitter:title" content="Be4Code | Tech" />
+        <meta name="twitter:description" content="Oferecemos desenvolvimento de sites, e-commerce, otimização de SEO e soluções web completas para garantir a melhor experiência e resultados para o seu negócio online." />
+        <meta name="twitter:card" content="website" />
+        <meta name="twitter:image" content="https://be4code.com.br/static/media/gabriel.f7a5d0bf107b18a83380.webp" />
+        <meta name="twitter:site" content="https://be4code.com.br/produtos/tech" />
+
+        <link rel="alternate" href="https://be4code.com.br/produtos/tech" hrefLang="pt-br" />
+        <link rel="canonical" href="https://be4code.com.br/produtos/tech" />
+
+        <meta name="keywords" content="Desenvolvimento Web, Desenvolvimento de Sites, Criação de Sites, Criação de Sites Profissionais, Criação de Landing Pages, Criação de Sites E-Commerce, Criação de Sites Institucionais, Criação de Sites de Venda, Criação de Sites de Venda Online, Criação de Sites de Venda Presencial, Criação de Sites de Venda Digital, Criação de Sites de Venda Online, Criação de Sites de Venda Presencial, Criação de Sites de Venda Digital" />
+
+        <meta name="author" content="Be4Code" />
+
+        <meta name="robots" content="noindex, nofollow" />
+
+        <meta name="language" content="Portuguese" />
+
+        <meta name="revisit-after" content="7 days" />
+
+      </Helmet>
 
       <Navbar />
 

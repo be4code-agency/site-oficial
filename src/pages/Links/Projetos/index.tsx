@@ -43,17 +43,17 @@ export default function Projetos(){
 
     <Container>
 
-      <Link to='/'>
+      <a href='/' className='btn btn-lg gradientBtn'>
         <span>Site</span>
-      </Link>
+      </a>
 
-      <Link to='/portfolio'>
+      <a href='/portfolio' className='btn btn-lg gradientBtn'>
         <span>Portfólio</span>
-      </Link>
+      </a>
 
-      <Link to='https://api.whatsapp.com/message/ZTOTKFWTJI4LJ1?autoload=1&app_absent=0' target='_blank'>
+      <a href='https://api.whatsapp.com/message/ZTOTKFWTJI4LJ1?autoload=1&app_absent=0' target='_blank' rel="noreferrer"  className='btn btn-lg gradientBtn'>
         <span>Consultoria grátis!</span>
-      </Link>
+      </a>
 
     </Container>
 

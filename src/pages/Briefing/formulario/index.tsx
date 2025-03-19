@@ -100,7 +100,7 @@ export function Formulario(){
 
       if(sendBriefingResponse.data.mensagem === 'Operação realizada com sucesso'){
 
-        navigate('/confirmation');
+        navigate('/confirmacao');
 
       }else{
 

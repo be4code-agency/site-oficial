@@ -8,19 +8,7 @@ export const Main = styled.article`
   justify-content: center;
   align-items: center;
   z-index: 99999;
-
-  @media screen and (max-width: ${({theme})=>theme.breakPoints.xs}) {
-
-    align-items: flex-start;
-    margin-top: 5rem;
-  }
-
-  @media screen and (max-height: 800px) {
-
-    align-items: flex-start;
-    margin-top: 5rem;
-
-  }
+  background-color: ${({theme})=>theme.colors.purpleHover};
 
 `;
 

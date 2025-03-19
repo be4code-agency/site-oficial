@@ -60,7 +60,7 @@ export default function Links(){
 
           <Footer>
 
-            <span><FaRegCopyright /> Be4Code - 2024</span>
+            <span><FaRegCopyright /> Be4Code - 2025</span>
 
           </Footer>
 

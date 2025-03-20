@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 import Slider from "react-slick";
 
-import Logo from '../../../img/logos/logo_icone_final.png';
+import Logo from '../../../img/logos/icone_transparente.svg';
 
 interface InicioProps{
 

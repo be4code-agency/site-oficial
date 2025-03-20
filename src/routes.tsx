@@ -35,7 +35,7 @@ export function AppRoutes() {
         <Route path='/produtos/engajamento' element={<Engajamento />} />
         <Route path='/produtos/capture' element={<Capture />} />
         <Route path='/faq' element={<Faq />} />
-        <Route path='/commercial_proposal/:idProposta' element={<Proposta />} />
+        {/* <Route path='/commercial_proposal/:idProposta' element={<Proposta />} /> */}
         <Route path='/politicas-de-privacidade' element={<PolicyPrivacy />} />
         <Route path='/not-found' element={<NotFound />} />
         <Route path='*' element={<NotFound />} />

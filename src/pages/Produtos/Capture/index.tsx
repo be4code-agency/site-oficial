@@ -21,12 +21,13 @@ import EdicaoImagemVideo from '../../../img/icones/produtos/capture/edicao_image
 import ConteudoPersonalizado from '../../../img/icones/produtos/capture/conteudo_personalizado.svg';
 import EntregaRapida from '../../../img/icones/produtos/capture/entrega.svg';
 
-import AmazoniaViva from '../../../img/projetos/capture/DJI_0225.jpg';
-import Galfort from '../../../img/projetos/capture/DJI_0287.jpg';
-import kardbank from '../../../img/projetos/capture/DJI_0303.jpg';
-import BarbeariaGringa from '../../../img/projetos/capture/DJI_0465.jpg';
-import SavegnagoBarber from '../../../img/projetos/capture/DJI_0499.jpg';
-import Eldorado from '../../../img/projetos/capture/DJI_0500.jpg';
+import Portfolio1 from '../../../img/projetos/capture/foto_barcos.jpg';
+import Portfolio2 from '../../../img/projetos/capture/DJI_0287.jpg';
+import Portfolio3 from '../../../img/projetos/capture/foto_galera2.jpg';
+import Portfolio4 from '../../../img/projetos/capture/pista_carro.jpg';
+import Portfolio5 from '../../../img/projetos/capture/DJI_0500.jpg';
+import Portfolio6 from '../../../img/projetos/capture/DJI_0303.jpg';
+
 import { Helmet } from 'react-helmet';
 
 export default function Capture(){
@@ -138,28 +139,28 @@ export default function Capture(){
   const imagensProjetos = [
 
     {
-      imagem: AmazoniaViva,
-      altImagem: 'Projeto Amazonia Viva Games'
+      imagem: Portfolio1,
+      altImagem: 'Festival de Barcos'
     },
     {
-      imagem: Galfort,
-      altImagem: 'Projeto Galfort - Estruturas Metálicas'
+      imagem: Portfolio2,
+      altImagem: 'Foto feita com drone'
     },
     {
-      imagem: BarbeariaGringa,
-      altImagem: 'Projeto Barbearia'
+      imagem: Portfolio3,
+      altImagem: 'Foto equipe natal'
     },
     {
-      imagem: SavegnagoBarber,
-      altImagem: 'Projeto Savegnago Barber'
+      imagem: Portfolio4,
+      altImagem: 'Foto Offroad'
     },
     {
-      imagem: Eldorado,
-      altImagem: 'Projeto Eldorado - Pintura Predial'
+      imagem: Portfolio5,
+      altImagem: 'Foto dos barcos na ilha'
     },
     {
-      imagem: kardbank,
-      altImagem: 'Projeto Kard Bank + AMP Barros'
+      imagem: Portfolio6,
+      altImagem: 'Foto paisagem ilha rio de janeiro'
     }
 
   ]

@@ -22,9 +22,9 @@ import ConteudoPersonalizado from '../../../img/icones/produtos/capture/conteudo
 import EntregaRapida from '../../../img/icones/produtos/capture/entrega.svg';
 
 import Portfolio1 from '../../../img/projetos/capture/foto_barcos.jpg';
-import Portfolio2 from '../../../img/projetos/capture/DJI_0287.jpg';
-import Portfolio3 from '../../../img/projetos/capture/foto_galera2.jpg';
-import Portfolio4 from '../../../img/projetos/capture/pista_carro.jpg';
+import Portfolio2 from '../../../img/projetos/capture/pista_carro.jpg';
+import Portfolio3 from '../../../img/projetos/capture/DJI_0287.jpg';
+import Portfolio4 from '../../../img/projetos/capture/santo_agostinho_paisagem.jpg';
 import Portfolio5 from '../../../img/projetos/capture/DJI_0500.jpg';
 import Portfolio6 from '../../../img/projetos/capture/DJI_0303.jpg';
 
@@ -139,29 +139,30 @@ export default function Capture(){
   const imagensProjetos = [
 
     {
-      imagem: Portfolio1,
-      altImagem: 'Festival de Barcos'
+      imagem: Portfolio3,
+      altImagem: 'Foto equipe natal'
     },
     {
       imagem: Portfolio2,
       altImagem: 'Foto feita com drone'
     },
+
     {
-      imagem: Portfolio3,
-      altImagem: 'Foto equipe natal'
+      imagem: Portfolio6,
+      altImagem: 'Foto paisagem ilha rio de janeiro'
     },
     {
       imagem: Portfolio4,
       altImagem: 'Foto Offroad'
     },
     {
+      imagem: Portfolio1,
+      altImagem: 'Festival de Barcos'
+    },
+    {
       imagem: Portfolio5,
       altImagem: 'Foto dos barcos na ilha'
     },
-    {
-      imagem: Portfolio6,
-      altImagem: 'Foto paisagem ilha rio de janeiro'
-    }
 
   ]
 
